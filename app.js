@@ -43,7 +43,7 @@ console.log(numeroMayor);
 */
 
 let listaNumerosSorteados = [];
-let numeroMaximo = 10;
+let numeroMaximo = 10; // Asegúrate de que numeroMaximo esté definido antes de su uso
 let numeroSecreto;
 let intentos = 1;
 
@@ -105,7 +105,6 @@ function reiniciarJuego() {
 }
 
 condicionesIniciales();
-
 /*
 let numeroSecreto = generarNumeroSecreto();
 let intentos = 1;
